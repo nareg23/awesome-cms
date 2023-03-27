@@ -7,7 +7,7 @@ import { NextStudioHead } from "next-sanity/studio/head";
 export default function CustomStudioHead() {
   return (
     <>
-      <NextStudioHead favicons={false} />
+      <NextStudioHead favicons={false} title={"Edit studio"} />
       <link
         rel="icon"
         type="image/png"

@@ -2,7 +2,7 @@
 
 import { NextStudio } from "next-sanity/studio";
 
-import _config from "../../../sanity.config";
+import _config from "@/sanity.config";
 import { useEffect, useState } from "react";
 
 export default function StudioPage() {
