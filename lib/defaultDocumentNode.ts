@@ -4,7 +4,6 @@ import { SanityDocument } from "sanity";
 
 // Customise this function to show the correct URL based on the current document
 function getPreviewUrl(doc: SanityDocument) {
-  console.log("DOCS");
   return "http://localhost:3000/api/preview";
 }
 

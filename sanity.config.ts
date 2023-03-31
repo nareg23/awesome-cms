@@ -4,7 +4,7 @@ import { visionTool } from "@sanity/vision";
 import { schemaTypes } from "./schemas";
 import StudioNavbar from "./components/StudioNavbar";
 import Logo from "./components/Logo";
-import { defaultDocumentNode } from "./defaultDocumentNode";
+import { defaultDocumentNode } from "./lib/defaultDocumentNode";
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;

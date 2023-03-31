@@ -17,7 +17,8 @@ const query = groq`
 *[_type == 'post'] {...,author->,categories[]->,body-> }
 `;
 
-export default async function Home() {
+export const revalidate = 30;
+export default async function Page() {
   if (previewData()) {
     return (
       <PreviewSuspense fallback={<Loading />}>
